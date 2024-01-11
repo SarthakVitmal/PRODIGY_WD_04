@@ -1,0 +1,236 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:#f4f0ec;
+}
+.nav{
+    background-color: #392467;
+    height: 60px;
+    align-items: center;
+}
+
+.nav a{
+    color: white;
+}
+
+.home_display_content{
+    height: 700px;
+    background-color: #fff;
+    background-image: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    display: flex;
+    border-bottom: 2px solid black; 
+    flex-wrap: wrap;
+}
+
+.profile-photo{
+    height: 350px;
+    background-image: url("1000062347-01.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    width: 350px;
+    margin-top:130px; 
+    border: 3px solid #392467; 
+}
+
+.home-text{
+    align-items: center;
+    justify-content: center;
+    padding: 200px 90px 110px 80px;
+}
+
+.main-heading{
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sub-heading{
+    font-size: 19px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.myskills{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    padding-top: 8px;
+    color:#392467;
+}
+
+.skills{
+    display: flex;
+    background-color:#f4f0ec;
+    flex-wrap: wrap;
+}
+.skills1{
+    height: 150px;
+    display: flex;
+}
+.skills2{
+    display: flex;
+}
+.skills_btn{
+    color: #fff;
+}
+.html5{
+    background-image: url("https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-file-html-shiny-icon-svg-wikimedia-commons-11.png");
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    margin-left: 60px;
+}
+.css{
+    background-image: url("https://cdn3.iconfinder.com/data/icons/social-media-logos-flat-colorful-1/2048/5351_-_CSS3-512.png");
+    background-size: cover;
+    height: 80px;
+    width: 80px;    
+    margin-left: 50px;
+}
+
+.js{
+    background-image: url("https://www.britefish.net/wp-content/uploads/2019/06/logo-javascript-2.png");
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    margin-left: 50px;
+}
+.mongodb{
+    background-image: url("https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Logo-768x480.png");
+    background-size: cover;
+    height: 80px;
+    width: 160px;
+    margin-left: 50px;
+}
+.express{
+    background-image: url("https://buttercms.com/static/images/tech_banners/ExpressJS.png");
+    background-size: cover;
+    height: 80px;
+    width: 300px;
+    margin-left: 50px;
+}
+.react{
+    background-image:url("//logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png");
+    background-size: cover;
+    height: 80px;
+    width: 240px;
+    margin-left: 50px;
+}
+
+.node{
+    background-image: url("https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png");
+    background-size: cover;
+    height: 100px;
+    width: 150px;
+    margin-left: 50px;
+
+}
+/* Contact Me */
+.bg{
+    background-image: url("https://images.unsplash.com/photo-1543107076-8f86ee268706?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    height: 900px;
+}
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 200px;
+}
+
+.contact-heading{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-options {
+    text-align: center;
+
+}
+
+.contact-options div {
+    text-align: center;
+
+}
+
+.email {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #555;
+}
+
+.fa-phone, .fa-envelope {
+    margin-right: 10px;
+    color: red;
+}
+.social-links{
+    font-size: 24px;
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.social-links a{
+    color:black;
+    margin-left: 1rem;
+}
+
+/* About */
+.profile-info{
+    background-image: url("https://images.unsplash.com/photo-1508161250369-a7ecbdfb67fe?q=80&w=1769&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    padding: 30px;
+    opacity: 0.9;
+    height: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-sections{
+    color:black;
+}
+
+.underline-text{
+    text-decoration: underline;
+}
+
+@media(min-width:380px)and(max-width:940px){
+    body{
+        height: 1800px;
+        width: 100%;
+    }
+    .home_display_content{
+        height: 2500px;
+        background-color: #fff;
+        background-image: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-size: cover;
+        display: flex;
+        border-bottom: 2px solid black; 
+        flex-wrap: wrap;
+    }
+    
+    .profile-photo{
+        height: 150px;
+        background-image: url("1000062347-01.jpeg");
+        background-size: cover;
+        border-radius: 50%;
+        width: 150px;
+        border: 3px solid #392467; 
+    }
+    .skills{
+        display: flex;
+        background-color:#f4f0ec;
+        flex-wrap: wrap;
+        position: relative;
+        top:600px;
+    }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+  <div class="nav sticky-top justify-content-center">
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="http://localhost:8080/home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/aboutme">About Me</a>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link skills_btn">Skills</button>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contactme">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+
+      <div class="home_display_content">
+        <div class="home-text">
+            <h3 class="main-heading">Hello,<br>
+            my name is Sarthak Vitmal<br></h3>
+           <h5 class="sub-heading"> "Passionate Web Developer Building Digital Experiences"</h5>
+            
+            <form method="get" action="/aboutme">
+            <button class="btn btn-dark">A little about me</button>
+        </form>
+        </div>
+        <div class="profile-photo"></div>
+      </div>
+      <p class="myskills">My Skills</p>
+      <div class="skills">
+      <div class="skills1">
+        <div class="html5"></div>
+        <div class="css"></div>
+        <div class="js"></div>
+      </div>
+
+      <div class="skills2">
+        <div class="mongodb"></div>
+        <div class="express"></div>
+        <div class="react"></div>
+        <div class="node"></div>
+        <div class="java"></div>
+      </div>
+    </div>
+
+    <script>
+      const skills = document.querySelector('.skills');
+      const skill_btn = document.querySelector('.skills_btn');
+
+      skill_btn.addEventListener('click',()=> {
+        skills.scrollIntoView({behavior:"smooth"});
+      })
+    </script>
+</body>
+</html>
